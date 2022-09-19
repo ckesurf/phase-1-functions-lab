@@ -1,0 +1,27 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-09-19T16:04:39.737Z",
+    "end": "2022-09-19T16:04:40.134Z",
+    "duration": 397
+  },
+  "tests": [],
+  "pending": [],
+  "failures": [
+    {
+      "title": "returns a distance in blocks",
+      "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: distanceFromHqInBlocks is not defined\n    at Context.<anonymous> (test/indexTest.js:4:7)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "distanceFromHqInBlocks is not defined"
+      }
+    }
+  ],
+  "passes": []
+}
